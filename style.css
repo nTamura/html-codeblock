@@ -1,0 +1,54 @@
+html, body {
+  background-color: #1c82d0;
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 65%;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+.codeblock {
+  font-family: monospace;
+  font-size: 2em;
+  padding: 40px;
+  background-color: #1f1f1f;
+  display: block;
+}
+
+.codeblock-code {
+  color: #ffffff;
+}
+
+.element-color {
+  color: #dd4e21;
+}
+
+.attr-color {
+  color: #ec7d0b;
+}
+
+.val-color {
+  color: #5bcc43;
+}
+
+@media only screen and (max-width: 768px) {
+  .codeblock {
+    font-size: 1.5em;
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .codeblock {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .codeblock {
+    font-size: 1em;
+    padding: 10px;
+  }
+}
